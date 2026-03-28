@@ -38,7 +38,7 @@ export function buildHeaderLines(
 		formatRightAligned(HEADER_SUFFIXES.spacer, innerWidth, delimiters),
 		formatLine(`Created: ${createdAt} by ${createdBylogin}`, HEADER_SUFFIXES.created, innerWidth, delimiters),
 		formatLine(`Updated: ${updatedAt} by ${settings.login}`, HEADER_SUFFIXES.updated, innerWidth, delimiters),
-		formatRightAligned(HEADER_SUFFIXES.final, innerWidth, delimiters),
+		formatRightAligned(HEADER_SUFFIXES.last, innerWidth, delimiters),
 		formatBorder(innerWidth, delimiters),
 	];
 }
