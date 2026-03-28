@@ -10,7 +10,7 @@ export function getHeaderWidthForLanguage(languageId: string): number {
 }
 
 export const HEADER_SUFFIXES = {
-	first: '',
+	first: 'C*    42 TURKIYE    C*                          ',
 	title: ':::      ::::::::',
 	column: '+:+ +:+         +:+  ',
 	file: ':+:      :+:    :+:',
